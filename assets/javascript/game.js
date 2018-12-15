@@ -5,6 +5,17 @@ var currentTotal = 0;
 var redNumber
 var green
 
-$("#red").on("click", function(){
-    alert("Red!")
+$("#green").on("click", function(){
+    alert("Green!")
   })
+
+$("#blue").on("click", function(){
+alert("Blue!")
+})
+
+$("#red").on("click", function(){
+alert("Red!")
+})
+$("#purple").on("click", function(){
+alert("Purple!")
+})

@@ -1,0 +1,22 @@
+img.crystal {
+    padding:10px;
+}
+
+body {
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position:center;
+}
+
+img#lenzo {
+    max-height:100%;
+    max-width:100%;
+}
+
+@media only screen and (max-width: 767px) {
+    img#lenzo {
+        max-width: 50%;
+        max-height: 50;
+    }
+}
