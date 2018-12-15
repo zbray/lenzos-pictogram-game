@@ -15,16 +15,37 @@ img#lenzo {
     max-width:100%;
 }
 
+.numText {
+    background-color:rgba(.1, 0, 255, .1);
+    display:flex;
+    margin-right:10px;
+    align-items:center;
+    justify-content:center;
+}
+
+.vars {
+    dispaly:flex;
+}
 .pText {
     background-color:rgba(0, .1, 255, .1);
 }
+
+.winLoss {
+    background-color:rgba(255, .1, .1, .1);
+    margin-left:10px;
+    display:flex;
+}
+
+/* body {
+    display:grid;
+} */
 
 
 @media only screen and (max-width: 767px) {
     img#lenzo {
         max-width: 100%;
         max-height: 100%;
-
+        margin-bottom:20px;
     }
 }
 

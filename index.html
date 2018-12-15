@@ -15,13 +15,17 @@
 <body>
     
 <!-- Main Content -->
+<!-- Header -->
 <div class="container">
   <div>
     <h1>Lenzo's Pictogram Game</h1>
   </div>
 
+
   <div class="row">
-    <div class="col-md-6">
+
+    <!-- Left side of page with at least window width of 768px -->
+    <div class="col-md-7">
     <p class="pText">
       Welcome! Ganon's minions have wrecked havoc in this region and the townsfolk have been trying to fend them off for months! To do my part I'm offering my favorite Pictograph to a hero with a sharp mind and able strength. If you can win my game, the Pictograph is yours!
     </p>
@@ -33,17 +37,26 @@
     <p class="pText">
       If you can reach the exact number I choose with the right combination of rupees, you win and the Pictograph is yours!
     </p>
-  </div>
-    <div class="col-md-6">
-        <img id="lenzo" src="assets/images/lenzo.png">
+    <div class="container row vars">
+      <div class="col-md-6 numText">
+        <h2 class="randomNumber"></h2>
       </div>
+      <div class="col-md-5">
+        <p class="row winLoss">
+          Wins<span id="numWins"></span>
+        </p>
+        <p class="row winLoss">
+          Losses<span id="numLosses"></span>
+        </p>
+      </div>
+    </div>
   </div>
-<br>
-<div>
-    <p class="winningNumber">###</p>
+  <!-- Sole element on right side of page with at least window width of 768px -->
+    <div class="col-md-5">
+      <img id="lenzo" src="assets/images/lenzo.png">
+    </div>
   </div>
-  
-  
+
   <div>
     <img class="crystal" id="green" src="assets/images/green.png" width="100px">
     
@@ -56,13 +69,14 @@
 
   <div>
     <p id="userChoice">
-      User Total
+      User Total <span id="userTotal"></span>
     </p>
   </div>
 <br>
   <div>
     <p>Total</p>
   </div>
+
 
 </div>
   <script src="assets/javascript/game.js"></script>
