@@ -33,11 +33,11 @@ alert("Purple!");
 $("#numWins").text(": " + wins);
 $("#numLosses").text(": " + losses);
 $("#currentTotal").text(": " + currentTotal);
-
+$(".randomNumber").text(randomNumber);
 
 
 //Resets Game after win or loss
-function reset() {
+function runGame() {
     currentTotal=0;
 
 
