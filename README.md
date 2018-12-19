@@ -1,5 +1,3 @@
-# unit-4-game
-
 # Lenzo's Pictogram Game
 
 The premise of this game is that you are presented with 4 crystals each with a number value that is randomized at each initialization of the game. You are given a currentTotal variable with a value of zero, upon clicking on each crystal their respective number value is added to your currentTotal variable on You're given a randomized number that is printed to the screen - this is the number you have to reach with a successful combination of clicks of each crystal.
