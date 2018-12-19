@@ -10,6 +10,10 @@ var blueNumber= Math.floor(Math.random()*11+1);
 var purpleNumber= Math.floor(Math.random()*11+1);
 var randomTarget= Math.floor(Math.random()*102+18);
 
+//Displays number of wins/losses/goal with span ids in html
+$("#numWins").text(": " + wins);
+$("#numLosses").text(": " + losses);
+$(".randomTarget").text(randomTarget);
 
 //Reset Function after win or loss
 function reset(){
@@ -22,15 +26,13 @@ function reset(){
   purpleNumber= Math.floor(Math.random()*11+1);
 }
 
-//On Clicks for Each Button
-//Checks each time for win/loss
+//On Clicks for Each Button press and checks for win/loss
 $("#green").on("click", function(){
   currentTotal += greenNumber;
   $("#currentTotal").text(": "+ currentTotal);
   console.log("red"+greenNumber);
   console.log("current"+currentTotal);
   check();
-
 })
 
 $("#blue").on("click", function(){
@@ -56,11 +58,6 @@ $("#purple").on("click", function(){
   console.log("current"+currentTotal);
   check();
 })
-
-//Displays number of wins/losses/goal with span ids in html
-$("#numWins").text(": " + wins);
-$("#numLosses").text(": " + losses);
-$(".randomTarget").text(randomTarget);
 
 //Loss and win function
 function check (){
