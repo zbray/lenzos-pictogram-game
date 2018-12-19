@@ -11,3 +11,5 @@ Loss Condition
 When your current total is more than the target number you loose. This will be displayed as an updating number to the player.
 
 The theme of the game is a character/island from the video game The Legend of Zelda: The Wind Waker. The .mp3 file is the music that plays while the player is on the island where the Lenzo character is introduced.
+
+Note: Google chrome does not allow autoplay in current build
