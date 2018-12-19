@@ -1,7 +1,4 @@
-img.crystal {
-    padding:10px;
-}
-
+/* Background */
 body {
     background: url("../images/background.jpg");
     background-repeat: no-repeat;
@@ -9,12 +6,17 @@ body {
     background-position:center;
 }
 
+/* Images */
+img.crystal {
+    padding:10px;
+}
 img#lenzo {
     max-height:100%;
     height: 300px;
     max-width:100%;
 }
 
+/* Text Containers */
 .numText {
     background-color:rgba(.1, 0, 255, .1);
     display:flex;
@@ -22,26 +24,16 @@ img#lenzo {
     align-items:center;
     justify-content:center;
 }
-
-.vars {
-    dispaly:flex;
-}
 .pText {
     background-color:rgba(0, .1, 255, .1);
 }
-
 .numColor {
     background-color:rgba(255, .1, .1, .1);
     margin-left:10px;
     display:flex;
 }
 
-.
-/* body {
-    display:grid;
-} */
-
-
+/* Fixes ugly UI in narrow windows */
 @media only screen and (max-width: 767px) {
     img#lenzo {
         max-width: 100%;
