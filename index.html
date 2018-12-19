@@ -10,80 +10,75 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
   <!-- Music that autoplays with warning if user's browser doesn't support audio -->
-  <audio autoplay>
+  <audio  autoplay>
       <source src="assets/music/WindfallIsland.mp3">
       Your browser does not support the audio element.
   </audio>
   </head>
-<body>
-    
-<!-- Main Content -->
-<!-- Header -->
-<div class="container">
-  <div>
-    <h1>Lenzo's Pictogram Game</h1>
-  </div>
-  <div class="row">
-    <!-- Left side of page at >768px -->
-    <div class="col-md-7">
-    <p class="pText">
-      Welcome! Ganon's minions have wrecked havoc in this region and the townsfolk have been trying to fend them off for months! To do my part I'm offering my favorite Pictograph to a hero with a sharp mind and able strength. If you can win my game, the Pictograph is yours!
-    </p>
-    <p class="pText">
-      Each rupee is worth a different amount of points, chosen at random.
-    </p>
-    <p class="pText">Each time you click on a rupee that rupee's point value will be added to your total.
-    </p>
-    <p class="pText">
-      If you can reach the exact number I choose with the right combination of rupees, you win and the Pictograph is yours!
-    </p>
-    <div class="container row vars">
-      <!--Random Number-->
-      <div class="col-md-6 numText">
-        <h2 class="randomTarget"></h2>
-      </div>
-      <!--Win/Loss Numbers-->
-      <div class="col-md-5"> 
-        <p class="row numColor">
-          Wins<span id="numWins"></span>
-        </p>
-        <p class="row numColor">
-          Losses<span id="numLosses"></span>
-        </p>
+  <body>
+  <!-- Main Content -->
+  <!-- Header -->
+  <div class="container">
+    <div>
+      <h1>Lenzo's Pictogram Game</h1>
+    </div>
+    <div class="row">
+      <!-- Left side of page at >768px -->
+      <div class="col-md-7">
+      <p class="pText">
+        Welcome! Ganon's minions have wrecked havoc in this region and the townsfolk have been trying to fend them off for months! To do my part I'm offering my favorite Pictograph to a hero with a sharp mind and able strength. If you can win my game, the Pictograph is yours!
+      </p>
+      <p class="pText">
+        Each rupee is worth a different amount of points, chosen at random.
+      </p>
+      <p class="pText">Each time you click on a rupee that rupee's point value will be added to your total.
+      </p>
+      <p class="pText">
+        If you can reach the exact number I choose with the right combination of rupees, you win and the Pictograph is yours!
+      </p>
+      <div class="container row vars">
+        <!--Random Number-->
+        <div class="col-md-6 numText">
+          <h2 class="randomTarget"></h2>
+        </div>
+        <!--Win/Loss Numbers-->
+        <div class="col-md-5"> 
+          <p class="row numColor">
+            Wins<span id="numWins"></span>
+          </p>
+          <p class="row numColor">
+            Losses<span id="numLosses"></span>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
 
- <!-- Right Side of Page at >768px -->
-    <div class="col-md-5">
-      <img id="lenzo" src="assets/images/lenzo.png">
+  <!-- Right Side of Page at >768px -->
+      <div class="col-md-5">
+        <img id="lenzo" src="assets/images/lenzo.png">
+      </div>
     </div>
+
+    <!--Crystal Buttons-->
+    <div>
+      <img class="crystal" id="green" src="assets/images/green.png" width="100px">
+      <img class="crystal" id="blue" src="assets/images/blue.png" width="100px">
+      <img class="crystal" id="red" src="assets/images/red.png" width="100px">
+      <img class="crystal" id="purple" src="assets/images/purple.png" width="100px">
+    </div>
+
+    <!-- Div displaying current total -->
+    <div>
+      <p class="col-md-6 numColor">
+        Current Total<span id="currentTotal"></span>
+      </p>
+    </div>
+
+    <!-- br tag to make the website look better with narrow windows -->
+    <br>
   </div>
-
-  <!--Crystal Buttons-->
-  <div>
-    <img class="crystal" id="green" src="assets/images/green.png" width="100px">
-    <img class="crystal" id="blue" src="assets/images/blue.png" width="100px">
-    <img class="crystal" id="red" src="assets/images/red.png" width="100px">
-    <img class="crystal" id="purple" src="assets/images/purple.png" width="100px">
-  </div>
-
-  <!-- Div displaying current total -->
-  <div>
-    <p class="col-md-6 numColor">
-      Current Total<span id="currentTotal"></span>
-    </p>
-  </div>
-
-  <!-- br tag to make the website look better with narrow windows -->
-  <br>
-
-
-
-</div>
-<!--JS being added last-->
-  <script src="assets/javascript/game.js"></script>
-</body>
+  <!--JS being added last-->
+    <script src="assets/javascript/game.js"></script>
+  </body>
 </html>
