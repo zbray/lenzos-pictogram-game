@@ -61,7 +61,7 @@ $(document).ready(function(){
     }
   
       else if (currentTotal > randomTarget){
-        alert("Ah no luck today. Ganon lives to fight another day.")
+        alert("Ah, no luck today. Ganon lives to fight another day.")
         losses++;
         $("#numLosses").text(": " + losses);
         reset();
