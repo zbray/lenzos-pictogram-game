@@ -12,7 +12,15 @@ When your current total is more than the target number you loose. This will be d
 
 The theme of the game is a character/island from the video game The Legend of Zelda: The Wind Waker. The .mp3 file is the music that plays while the player is on the island where the Lenzo character is introduced.
 
-Note: Google chrome does not allow autoplay in current build
+Note: Google Chrome does not allow autoplay in current build and Firefox will soon be disabling this as well.
+
+#### Problem
+
+Needed to display skill of randomly giving divs a number value and having events happen when the correct number of chosen numbers reached a randomly generated number.
+
+#### Solution
+
+Made a fun game with gems and a Legend of Zelda theme. Researched and troubleshooted ways to have a music file play on a webpage as well.
 
 #### Tools utilized
 
