@@ -31,7 +31,7 @@ HTML, CSS, Bootstrap, JavaScript, jQuery, Audio Files, JavaScript Math Object
 https://zzzbray.github.io/lenzosPictogramGame/
 
 ### References
-This repo is currently displayed on my [porfolio](https://zzzbray.github.io/Bootstrap-Portfolio/portfolio.html) and its [repo](https://github.com/zzzbray/Bootstrap-Portfolio).
+This repo is currently displayed on my [porfolio](https://zzzbray.github.io/bootstrapPortfolio/portfolio.html) and its [repo](https://github.com/zzzbray/bootstrapPortfolio).
 
 
 © 2018 zzzbray
