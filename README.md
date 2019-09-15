@@ -28,10 +28,10 @@ HTML, CSS, Bootstrap, JavaScript, jQuery, Audio Files, JavaScript Math Object
 
 #### GitHub Pages Deployment
 
-https://zzzbray.github.io/lenzosPictogramGame/
+https://zbray.github.io/lenzosPictogramGame/
 
 ### References
-This repo is currently displayed on my [porfolio](https://zzzbray.github.io/bootstrapPortfolio/portfolio.html) and its [repo](https://github.com/zzzbray/bootstrapPortfolio).
+This repo is currently displayed on my [porfolio](https://zbray.github.io/bootstrapPortfolio/portfolio.html) and its [repo](https://github.com/zbray/bootstrapPortfolio).
 
 
 © 2018 zzzbray
