@@ -34,4 +34,4 @@ https://zbray.github.io/lenzosPictogramGame/
 This repo is currently displayed on my [porfolio](https://zbray.github.io/bootstrapPortfolio/portfolio.html) and its [repo](https://github.com/zbray/bootstrapPortfolio).
 
 
-© 2018 zzzbray
+© 2018 zbray
